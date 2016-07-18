@@ -1,7 +1,7 @@
 {
   "name": "grunt-git-describe",
   "description": "Describes git commit",
-  "version": "2.3.3-0",
+  "version": "2.3.2-1",
   "homepage": "https://github.com/mikaelkaron/grunt-git-describe",
   "author": {
     "name": "Mikael Karon",
@@ -22,8 +22,8 @@
   ],
   "main": "Gruntfile.js",
   "dependencies": {
-    "grunt-util-options": "~0.0.2",
-    "grunt-util-process": "~0.0.1",
+    "grunt-util-options": "git+ssh://git@github.com:LeeGDavis/grunt-util-options#0.0.3",
+    "grunt-util-process": "git+ssh://git@github.com:LeeGDavis/grunt-util-process#0.0.2",
     "grunt-util-spawn": "~0.0.1",
     "grunt-util-args": "~0.0.2"
   },
